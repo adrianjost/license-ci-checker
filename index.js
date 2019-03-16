@@ -9,7 +9,6 @@ const path = require("path");
 
 const args = process.argv.slice(2);
 
-
 // CHECKS
 
 // onlyDirectDependencies isn't working without name specified
