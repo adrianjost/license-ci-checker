@@ -61,5 +61,7 @@ Licenses can be categorized with a hierarchie. This package checks which license
 ### License compatiblity
 
 ![license categories](https://janelia-flyem.github.io/images/open_licenses.png)
+<center>source: <a href="https://janelia-flyem.github.io/images/open_licenses.png">https://janelia-flyem.github.io/</a></center>
 
 ![license compatibility](https://raw.githubusercontent.com/HansHammel/license-compatibility-checker/HEAD/licenses.png)
+<center>source: <a href="https://raw.githubusercontent.com/HansHammel/license-compatibility-checker/HEAD/licenses.png">https://raw.githubusercontent.com/HansHammel/license-compatibility-checker/</a></center>
