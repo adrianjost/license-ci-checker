@@ -1,0 +1,29 @@
+{
+  "name": "license-ci-checker",
+  "version": "1.0.2",
+  "description": "Checks the compatiblity of your license with your dependencies licenses",
+  "main": "index.js",
+  "scripts": {
+    "lcc": "node index.js"
+  },
+  "keywords": [
+    "license",
+    "compatibility",
+    "check",
+    "npm-license-crawler"
+  ],
+  "author": "Adrian Jost",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.3.3",
+    "npm-license-crawler": "^0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/adrianjost/license-compatibility-checker.git"
+  },
+  "bin": {
+    "license-ci-check": "./index.js",
+    "lcc": "./index.js"
+  }
+}
