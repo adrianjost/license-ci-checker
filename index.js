@@ -34,6 +34,9 @@ if (args.includes("--start") || args.includes("--exclude ")) {
 
 const scanOptions = {
 	start: start,
+	exclude: exclude,
+	unknown: args.includes("--unknown"),
+	dependencies: args.includes("--dependencies"),
 	production: args.includes("--production"),
 	development: args.includes("--development"),
 	omitVersion: args.includes("--omitVersion"),

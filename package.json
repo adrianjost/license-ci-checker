@@ -28,7 +28,8 @@
 		"lint": "run-s lint:all:*",
 		"lint:all:prettier": "yarn lint:prettier -c \"**/*.{js,json,md}\"",
 		"lint:prettier": "prettier --write",
-		"start": "node index.js"
+		"start": "node index.js",
+		"ci": "yarn start --production --onlyDirectDependencies"
 	},
 	"version": "1.0.3"
 }
