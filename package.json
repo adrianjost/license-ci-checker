@@ -1,7 +1,7 @@
 {
 	"author": "Adrian Jost",
 	"bin": {
-		"license-ci-check": "./index.js"
+		"license-ci-checker": "./index.js"
 	},
 	"dependencies": {
 		"colors": "^1.3.3",
@@ -20,10 +20,10 @@
 		"npm-license-crawler"
 	],
 	"license": "MIT",
-	"name": "license-ci-check",
+	"name": "license-ci-checker",
 	"repository": {
 		"type": "git",
-		"url": "http://github.com/adrianjost/license-ci-check.git"
+		"url": "http://github.com/adrianjost/license-ci-checker.git"
 	},
 	"scripts": {
 		"lint": "run-s lint:fix:all:*",
