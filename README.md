@@ -1,6 +1,10 @@
-# License Compatibility Checker
+# License CI Checker
 
-[![Build Status](https://travis-ci.com/adrianjost/license-ci-checker.svg?branch=master)](https://travis-ci.com/schul-cloud/nuxt-client) [![Greenkeeper badge](https://badges.greenkeeper.io/adrianjost/license-ci-checker.svg)](https://greenkeeper.io/)
+[![license](https://img.shields.io/npm/l/license-ci-checker.svg)](./LICENSE) [![npm version](https://img.shields.io/npm/v/license-ci-checker.svg)](https://www.npmjs.com/package/license-ci-checker) [![npm downloads](https://img.shields.io/npm/dt/license-ci-checker.svg)](https://www.npmjs.com/package/license-ci-checker)
+
+[![Build Status](https://travis-ci.com/adrianjost/license-compatibility-checker.svg?branch=master)](https://travis-ci.com/adrianjost/license-compatibility-checker) ![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/license-ci-checker.svg) [![Greenkeeper badge](https://badges.greenkeeper.io/adrianjost/license-ci-checker.svg)](https://greenkeeper.io/)
+
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ## Disclaimer
 
@@ -56,4 +60,6 @@ Licenses can be categorized with a hierarchie. This package checks which license
 
 ### License compatiblity
 
-![](https://janelia-flyem.github.io/images/open_licenses.png) ![](https://raw.githubusercontent.com/HansHammel/license-compatibility-checker/HEAD/licenses.png)
+![license categories](https://janelia-flyem.github.io/images/open_licenses.png)
+
+![license compatibility](https://raw.githubusercontent.com/HansHammel/license-compatibility-checker/HEAD/licenses.png)
