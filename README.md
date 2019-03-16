@@ -2,7 +2,7 @@
 
 [![license](https://img.shields.io/npm/l/license-ci-checker.svg)](./LICENSE) [![npm version](https://img.shields.io/npm/v/license-ci-checker.svg)](https://www.npmjs.com/package/license-ci-checker) [![npm downloads](https://img.shields.io/npm/dt/license-ci-checker.svg)](https://www.npmjs.com/package/license-ci-checker)
 
-[![Build Status](https://travis-ci.com/adrianjost/license-compatibility-checker.svg?branch=master)](https://travis-ci.com/adrianjost/license-compatibility-checker) ![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/license-ci-checker.svg) [![Greenkeeper badge](https://badges.greenkeeper.io/adrianjost/license-ci-checker.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.com/adrianjost/license-compatibility-checker.svg?branch=master)](https://travis-ci.com/adrianjost/license-compatibility-checker) ![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/license-ci-checker.svg)
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
@@ -43,7 +43,7 @@ license-ci-check --production
 Most options are passed through from [npm-license-crawler](https://github.com/mwittig/npm-license-crawler).
 
 | param                      | default  | description                                                                                                                                                          |
-| -------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|----------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `--start directory-path`   | `["./"]` | path to the directory the license search should start from. If omitted the current working directory is assumed. Can be declared multiple for multiple entry points. |
 | `--exclude directory-path` | `[]`     | path to a directory to be excluded (and its subdirectories) from the search (behaves like `--start`)                                                                 |
 | `--unknown`                | `false`  | show only licenses that can't be determined or have been guessed.                                                                                                    |
