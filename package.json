@@ -10,7 +10,8 @@
 	"description": "Checks the compatiblity of your license with your dependencies licenses",
 	"devDependencies": {
 		"npm-run-all": "^4.1.5",
-		"prettier": "^1.16.4"
+		"prettier": "^1.16.4",
+		"yorkie": "^2.0.0"
 	},
 	"keywords": [
 		"license",
@@ -25,11 +26,16 @@
 		"url": "http://github.com/adrianjost/license-ci-check.git"
 	},
 	"scripts": {
-		"lint": "run-s lint:all:*",
+		"lint": "run-s lint:fix:all:*",
+		"lint-ci": "run-s lint:all:*",
+		"lint:prettier": "prettier",
 		"lint:all:prettier": "yarn lint:prettier -c \"**/*.{js,json,md}\"",
-		"lint:prettier": "prettier --write",
+		"lint:fix:all:prettier": "yarn lint:all:prettier --write",
 		"start": "node index.js",
-		"ci": "yarn start --production --onlyDirectDependencies"
+		"ci": "yarn start --production --onlyDirectDependencies && yarn lint-ci"
 	},
-	"version": "1.0.3"
+	"version": "1.0.3",
+	"gitHooks": {
+		"pre-commit": "yarn lint"
+	}
 }
