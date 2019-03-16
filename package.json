@@ -1,34 +1,34 @@
 {
-  "author": "Adrian Jost",
-  "bin": {
-    "license-ci-check": "./index.js"
-  },
-  "dependencies": {
-    "colors": "^1.3.3",
-    "npm-license-crawler": "^0.2.0"
-  },
-  "description": "Checks the compatiblity of your license with your dependencies licenses",
-  "devDependencies": {
-    "npm-run-all": "^4.1.5",
-    "prettier": "^1.16.4"
-  },
-  "keywords": [
-    "license",
-    "compatibility",
-    "check",
-    "npm-license-crawler"
-  ],
-  "license": "MIT",
-  "name": "license-ci-checker",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/adrianjost/license-ci-check.git"
-  },
-  "scripts": {
-    "lint": "run-s lint:all:*",
-    "lint:all:prettier": "yarn lint:prettier -c \"**/*.{js,json,md}\"",
-    "lint:prettier": "prettier --write",
-    "start": "node index.js"
-  },
-  "version": "1.0.3"
+	"author": "Adrian Jost",
+	"bin": {
+		"license-ci-check": "./index.js"
+	},
+	"dependencies": {
+		"colors": "^1.3.3",
+		"npm-license-crawler": "^0.2.0"
+	},
+	"description": "Checks the compatiblity of your license with your dependencies licenses",
+	"devDependencies": {
+		"npm-run-all": "^4.1.5",
+		"prettier": "^1.16.4"
+	},
+	"keywords": [
+		"license",
+		"compatibility",
+		"check",
+		"npm-license-crawler"
+	],
+	"license": "MIT",
+	"name": "license-ci-checker",
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/adrianjost/license-ci-check.git"
+	},
+	"scripts": {
+		"lint": "run-s lint:all:*",
+		"lint:all:prettier": "yarn lint:prettier -c \"**/*.{js,json,md}\"",
+		"lint:prettier": "prettier --write",
+		"start": "node index.js"
+	},
+	"version": "1.0.3"
 }
