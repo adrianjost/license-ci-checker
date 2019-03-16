@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.com/adrianjost/license-compatibility-checker.svg?branch=master)](https://travis-ci.com/adrianjost/license-compatibility-checker) ![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/license-ci-checker.svg)
 
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 ## Disclaimer
 
@@ -59,6 +59,8 @@ Most options are passed through from [npm-license-crawler](https://github.com/mw
 Licenses can be categorized with a hierarchie. This package checks which license you are using and in which category it belongs. Then it crawls all your licenses dependencies and checks if there licenses are in the same category as yours or below. If not, it throws an error.
 
 ### License compatiblity
+
+(currently, the implementation is a bit simpler, as explained above)
 
 ![license categories](https://janelia-flyem.github.io/images/open_licenses.png) source: [https://janelia-flyem.github.io/](https://janelia-flyem.github.io/images/open_licenses.png)
 
