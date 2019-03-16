@@ -43,7 +43,7 @@ license-ci-check --production
 Most options are passed through from [npm-license-crawler](https://github.com/mwittig/npm-license-crawler).
 
 | param                      | default  | description                                                                                                                                                          |
-|----------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| -------------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `--start directory-path`   | `["./"]` | path to the directory the license search should start from. If omitted the current working directory is assumed. Can be declared multiple for multiple entry points. |
 | `--exclude directory-path` | `[]`     | path to a directory to be excluded (and its subdirectories) from the search (behaves like `--start`)                                                                 |
 | `--unknown`                | `false`  | show only licenses that can't be determined or have been guessed.                                                                                                    |
@@ -60,8 +60,6 @@ Licenses can be categorized with a hierarchie. This package checks which license
 
 ### License compatiblity
 
-![license categories](https://janelia-flyem.github.io/images/open_licenses.png)
-<center>source: <a href="https://janelia-flyem.github.io/images/open_licenses.png">https://janelia-flyem.github.io/</a></center>
+![license categories](https://janelia-flyem.github.io/images/open_licenses.png) source: [https://janelia-flyem.github.io/](https://janelia-flyem.github.io/images/open_licenses.png)
 
-![license compatibility](https://raw.githubusercontent.com/HansHammel/license-compatibility-checker/HEAD/licenses.png)
-<center>source: <a href="https://raw.githubusercontent.com/HansHammel/license-compatibility-checker/HEAD/licenses.png">https://raw.githubusercontent.com/HansHammel/license-compatibility-checker/</a></center>
+![license compatibility](https://raw.githubusercontent.com/HansHammel/license-compatibility-checker/HEAD/licenses.png) source: [https://raw.githubusercontent.com/HansHammel/license-compatibility-checker/](https://raw.githubusercontent.com/HansHammel/license-compatibility-checker/HEAD/licenses.png)
