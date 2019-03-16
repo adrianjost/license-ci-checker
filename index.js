@@ -109,6 +109,7 @@ function check() {
 					`✅\tAll dependency licenses seem to be compatible with "${pkgLicense}".`
 				)
 			);
+			process.exit(0);
 		}
 	});
 }
