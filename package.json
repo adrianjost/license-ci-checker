@@ -34,7 +34,7 @@
 		"start": "node index.js",
 		"ci": "yarn start --production --onlyDirectDependencies && yarn lint-ci"
 	},
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"gitHooks": {
 		"pre-commit": "yarn lint"
 	}
