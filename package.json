@@ -20,7 +20,7 @@
 		"npm-license-crawler"
 	],
 	"license": "MIT",
-	"name": "license-ci-checker",
+	"name": "license-ci-check",
 	"repository": {
 		"type": "git",
 		"url": "http://github.com/adrianjost/license-ci-check.git"

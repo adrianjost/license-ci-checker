@@ -27,7 +27,7 @@ yarn add -D license-ci-checker
 ```json
 {
 	"scripts": {
-		"test-licenses": "license-ci-check --production"
+		"test-licenses": "license-ci-checker --production"
 	}
 }
 ```
@@ -35,7 +35,7 @@ yarn add -D license-ci-checker
 #### command line
 
 ```bash
-license-ci-check --production
+license-ci-checker --production
 ```
 
 ## Options
