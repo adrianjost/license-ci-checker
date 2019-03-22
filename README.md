@@ -53,6 +53,7 @@ Most options are passed through from [npm-license-crawler](https://github.com/mw
 | `--onlyDirectDependencies` | `false`  | show only direct dependencies licenses, i.e., don't list dependencies of dependencies.                                                                               |
 | `--omitVersion`            | `false`  | omit version numbers in result (e.g. "npm-license-crawler@0.1.5" becomes "npm-license-crawler")                                                                      |
 | `--relativeLicensePath`    | `false`  | output the relative file path for license files.                                                                                                                     |
+| `--allow`                  | `[]`     | list of packages that doen't throw an error regardless of there license. Like with the `--start` argument, you can specify it mutliple times                         |
 
 ## How does it work?
 

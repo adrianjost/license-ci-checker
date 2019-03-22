@@ -19,18 +19,22 @@ if (args.includes("--onlyDirectDependencies") && !pkgName) {
 // OPTIONS
 
 let start = [process.cwd()];
-let exclude = [];
-if (args.includes("--start") || args.includes("--exclude ")) {
+const exclude = [];
+const packageWhitelist = [];
+if (args.includes("--start")) {
 	start = [];
-	args.forEach((param, index) => {
-		if (param === "--start") {
-			start.push(path.join(process.cwd(), args[index + 1]));
-		}
-		if (param === "--exclude") {
-			exclude.push(path.join(process.cwd(), args[index + 1]));
-		}
-	});
 }
+args.forEach((param, index) => {
+	if (param === "--start") {
+		start.push(path.join(process.cwd(), args[index + 1]));
+	}
+	if (param === "--exclude") {
+		exclude.push(path.join(process.cwd(), args[index + 1]));
+	}
+	if (param === "--allow") {
+		packageWhitelist.push(args[index + 1]);
+	}
+});
 
 const scanOptions = {
 	start: start,
@@ -77,6 +81,9 @@ function check() {
 
 		const incompatibleDependencies = Object.keys(dependencies).filter(
 			(dependency) => {
+				if (packageWhitelist.includes(dependency.split("@")[0])) {
+					return false;
+				}
 				const licenses = dependencies[dependency].licenses;
 				if (licenses.includes("AND")) {
 					return !licenses.split(/AND/).every(isCompatible);

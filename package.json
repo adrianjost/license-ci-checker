@@ -17,7 +17,8 @@
 		"license",
 		"compatibility",
 		"check",
-		"npm-license-crawler"
+		"npm-license-crawler",
+		"compliance check"
 	],
 	"license": "MIT",
 	"name": "license-ci-checker",
@@ -31,7 +32,7 @@
 		"lint:prettier": "prettier",
 		"lint:all:prettier": "yarn lint:prettier -c \"**/*.{js,json,md}\"",
 		"lint:fix:all:prettier": "yarn lint:all:prettier --write",
-		"start": "node index.js",
+		"start": "node index.js --whitelistPkg spdx-exceptions",
 		"ci": "yarn start --production --onlyDirectDependencies && yarn lint-ci"
 	},
 	"version": "1.1.2",
