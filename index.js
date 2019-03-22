@@ -89,8 +89,8 @@ function check() {
 		);
 
 		// LOG RESULT
-		console.log(`\nYour package license: ${pkgLicense}`);
-		console.log("Checking dependency licenses for compatibility...\n");
+		console.log(colors.cyan(`\nYour package license: ${pkgLicense}\n`));
+		console.log("Checking dependency licenses for compatibility...");
 
 		if (incompatibleDependencies.length !== 0) {
 			incompatibleDependencies.forEach((dependency) => {
