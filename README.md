@@ -2,7 +2,7 @@
 
 [![license](https://img.shields.io/npm/l/license-ci-checker.svg)](./LICENSE) [![npm version](https://img.shields.io/npm/v/license-ci-checker.svg)](https://www.npmjs.com/package/license-ci-checker) [![npm downloads](https://img.shields.io/npm/dt/license-ci-checker.svg)](https://www.npmjs.com/package/license-ci-checker)
 
-[![Build Status](https://travis-ci.com/adrianjost/license-compatibility-checker.svg?branch=master)](https://travis-ci.com/adrianjost/license-compatibility-checker) ![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/license-ci-checker.svg)
+[![Build Status](https://travis-ci.com/adrianjost/license-ci-checker.svg?branch=master)](https://travis-ci.com/adrianjost/license-ci-checker) ![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/license-ci-checker.svg)
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
