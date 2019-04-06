@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.com/adrianjost/license-ci-checker.svg?branch=master)](https://travis-ci.com/adrianjost/license-ci-checker) ![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/license-ci-checker.svg)
 
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![Greenkeeper badge](https://badges.greenkeeper.io/adrianjost/license-ci-checker.svg)](https://greenkeeper.io/)
 
 ## Disclaimer
 
