@@ -10,7 +10,7 @@
 	"description": "Checks the compatiblity of your license with your dependencies licenses",
 	"devDependencies": {
 		"npm-run-all": "^4.1.5",
-		"prettier": "^1.16.4",
+		"prettier": "1.16.4",
 		"yorkie": "^2.0.0"
 	},
 	"keywords": [
