@@ -79,9 +79,10 @@ function check() {
 			return process.exit(1);
 		}
 
+		const pattern = /\x1B\[94m(?<dependency>[a-zA-Z\-\_\@\/]+).*/
 		const incompatibleDependencies = Object.keys(dependencies).filter(
-			(dependency) => {
-				if (packageWhitelist.includes(dependency.split("@")[0])) {
+            		(dependency) => {
+                		if (packageWhitelist.includes(dependency.replace(pattern, '$<dependency>'))) {
 					return false;
 				}
 				const licenses = dependencies[dependency].licenses;
